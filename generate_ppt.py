@@ -7,11 +7,20 @@ from pptx.enum.text import PP_ALIGN
 from pptx.dml.color import RGBColor
 
 def get_api_key():
+    # Try environmental variables first
+    api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    if api_key:
+        return api_key
+
     try:
-        with open('.env', 'r') as f:
-            return f.read().strip()
+        with open('.env', 'r', encoding='utf-8') as f:
+            line = f.read().strip()
+            # Handle both formats: raw API key or API_KEY=key_value
+            if line.startswith("API_KEY="):
+                return line.split("API_KEY=")[1].strip()
+            return line
     except FileNotFoundError:
-        print("Error: .env file not found.")
+        print("Error: .env file not found and no environment API key available.")
         return None
 
 def generate_image(prompt, output_path, api_key):
@@ -45,7 +54,7 @@ def create_presentation(json_file='slides.json', output_file_base='nano_banana_p
         print("Skipping image generation due to missing API key.")
 
     try:
-        with open(json_file, 'r') as f:
+        with open(json_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
             # Handle both formats: direct array or object with 'slides' key
             if isinstance(data, dict) and 'slides' in data:
@@ -118,7 +127,9 @@ def create_presentation(json_file='slides.json', output_file_base='nano_banana_p
         img_filename = f"generated_images/slide_{i+1}.png"
         
         image_generated = False
-        if api_key and img_prompt:
+        if os.path.exists(img_filename):
+            image_generated = True
+        elif api_key and img_prompt:
             print(f"Generating image for slide {i+1}...")
             image_generated = generate_image(img_prompt, img_filename, api_key)
         

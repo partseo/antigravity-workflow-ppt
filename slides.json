@@ -1,64 +1,56 @@
 {
     "slides": [
         {
-            "title": "영어 실력을 향상시키는 5가지 효과적인 방법",
+            "title": "친환경 전기차 충전장치 신규 사업 추진 개요",
             "content": [
-                "영어 학습의 중요성과 목표 설정",
-                "5가지 핵심 전략 개요",
-                "지속적인 학습을 위한 동기 부여",
-                "실천 가능한 구체적인 방법론 제시"
+                "친환경 교통 인프라 확산과 취약계층 지속 가능 일자리 결합",
+                "신규 업종 추가를 통한 사회적협동조합의 공익적 목적 실현",
+                "제조, 설치, 유지관리, 위탁운영을 융합한 다각적 수익 모델",
+                "전기차 충전장치 제조·조립 공정 기반 취약계층 친화적 직무 설계"
             ],
-            "image_prompt": "A conceptual diagram showing 5 interconnected nodes representing different language skills (Reading, Writing, Listening, Speaking, Vocabulary), Academic figure, IEEE/CVPR paper style, schematic, clean lines, white background"
+            "image_prompt": "A high-level conceptual diagram illustrating the integration of green energy infrastructure, social welfare employment, and sustainable circular economy. Academic figure, IEEE/CVPR paper style, schematic, clean lines, white background"
         },
         {
-            "title": "1. 꾸준한 듣기 연습 (Consistent Listening Practice)",
+            "title": "취약계층 직무 설계 및 조직 구성안",
             "content": [
-                "매일 팟캐스트, 뉴스, 영화 등 다양한 매체 활용",
-                "쉐도잉(Shadowing) 기법을 통한 억양 및 발음 체득",
-                "자투리 시간을 활용한 흘려듣기 생활화",
-                "다양한 발음과 속도에 익숙해지기"
+                "총 20명 규모의 취약계층 중심 직무 배치 및 맞춤형 훈련",
+                "제조·조립 보조(6명): 부품 분류, 조립, 포장 및 출고 관리",
+                "현장 및 유지관리(9명): 충전기 외관 점검, 케이블 관리, 현장 정돈",
+                "고객 안내 및 행정(5명): 이용방법 안내, 민원 접수 및 점검 보고서 작성",
+                "직무 난이도별 세분화와 체계적 안전 교육을 통한 고용 안정성 제고"
             ],
-            "image_prompt": "A schematic diagram illustrating the process of auditory input processing and shadowing loop, Academic figure, IEEE/CVPR paper style, schematic, clean lines, white background"
+            "image_prompt": "An organizational flowchart depicting the division of labor for social employment, categorizing tasks into manufacturing support, site management, maintenance assistance, and administration. Academic figure, IEEE/CVPR paper style, schematic, clean lines, white background"
         },
         {
-            "title": "2. 어휘력 확장 (Expanding Vocabulary)",
+            "title": "연차별 및 단계별 사업 추진 로드맵 (2026-2029)",
             "content": [
-                "문맥 속에서 새로운 단어 학습",
-                "플래시카드나 앱을 활용한 반복 학습",
-                "에빙하우스의 망각 곡선을 고려한 분산 반복(Spaced Repetition)",
-                "동의어, 반의어, 파생어 함께 익히기"
+                "[1단계: 도입기(2026)] 제품 설계 검토, 부품 공급망 확보 및 직무교육 실시",
+                "[2단계: 성장기(2027)] 광주·전남권 공동주택 및 공공시설 대상 설치 확대",
+                "[3단계: 확산기(2028)] 물류기지, 산업단지 연계 및 유지점검 관리 고도화",
+                "[4단계: 안정기(2029)] 전국 단위 설치 협력망 구축 및 위탁운영 브랜드 정착",
+                "공정 설계부터 성과 분석까지 이어지는 체계적 7단계 사업 프로세스 구축"
             ],
-            "image_prompt": "A graph showing the forgetting curve and the effect of spaced repetition on vocabulary retention, Academic figure, IEEE/CVPR paper style, schematic, clean lines, white background"
+            "image_prompt": "A timeline Gantt chart or roadmap diagram depicting the four-phase implementation plan from 2026 to 2029, showing progression of infrastructure setup and target expansions. Academic figure, IEEE/CVPR paper style, schematic, clean lines, white background"
         },
         {
-            "title": "3. 말하기와 발음 교정 (Speaking & Pronunciation)",
+            "title": "기존 충전기 업체 대비 사업 차별성",
             "content": [
-                "원어민이나 언어 교환 파트너와 대화 연습",
-                "자신의 목소리를 녹음하여 들어보고 교정하기",
-                "정확한 발음 기호 및 강세 파악",
-                "실수를 두려워하지 않는 자신감 있는 태도"
+                "[일반 업체] 일회성 판매·설치 중심 vs [본 조합] 설치, 점검, 안내의 원스톱 통합 수행",
+                "[고용 구조] 전문 기술자 중심 소수 정예 vs [본 조합] 취약계층 적합 직무 분리 배치",
+                "[수익 구조] 초기 구축비용 의존 vs [본 조합] 제조·설치 마진과 장기 위탁운영 수입 결합",
+                "단순 고장 수리를 넘어 상시 정기점검 및 주변 환경 관리를 통한 고객 만족 극대화"
             ],
-            "image_prompt": "A flowchart depicting the feedback loop of speaking, recording, analyzing, and correcting pronunciation, Academic figure, IEEE/CVPR paper style, schematic, clean lines, white background"
+            "image_prompt": "A comparison block diagram contrasting the linear traditional business model with the multi-dimensional, social value-oriented circular business model of the cooperative. Academic figure, IEEE/CVPR paper style, schematic, clean lines, white background"
         },
         {
-            "title": "4. 영작문 연습 (English Writing Practice)",
+            "title": "연도별 수입 계획 및 성과 목표 전망 (2026-2028)",
             "content": [
-                "매일 영어 일기 쓰기 습관화",
-                "에세이 작성 및 요약 연습",
-                "첨삭 도구(Grammarly 등)나 전문가의 피드백 활용",
-                "다양한 문장 구조와 표현 시도"
+                "[매출 성장] 2026년 5억 원 -> 2027년 10.7억 원 -> 2028년 17억 원 매출 목표",
+                "[고용 창출] 취약계층 일자리 고용을 2026년 10명에서 2028년 30명까지 순차 확대",
+                "[인프라 확충] 충전기 누적 제조·판매 370대 및 설치 260개소 돌파 달성",
+                "정기 점검 및 위탁운영 수입 비중을 높여 조합의 재정 자립도 강화"
             ],
-            "image_prompt": "A structural diagram showing the components of effective writing: grammar, vocabulary, structure, and flow, Academic figure, IEEE/CVPR paper style, schematic, clean lines, white background"
-        },
-        {
-            "title": "5. 영어로 생각하기 (Thinking in English)",
-            "content": [
-                "모국어로 번역하는 과정 생략하기",
-                "주변 사물이나 상황을 영어로 묘사하기",
-                "영어식 사고방식과 문화 이해",
-                "내적 독백(Internal Monologue)을 영어로 수행"
-            ],
-            "image_prompt": "A cognitive model diagram illustrating the direct link between concept and English expression without translation, Academic figure, IEEE/CVPR paper style, schematic, clean lines, white background"
+            "image_prompt": "A multi-layered column chart and line graph projecting the growth of sales revenue, unit production, and social employment from 2026 to 2028. Academic figure, IEEE/CVPR paper style, schematic, clean lines, white background"
         }
     ]
 }
